@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 header={
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0',
-    'X-Access-Token':'eyJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiJGTHVndWIyVWxhYldzeHQxZ2REVnZzcl9tRXNEQWdpcnFxeHNaRVBiQ2VjIiwieSI6IlBzMmZPbnlFTjhPUDJjUmlrSkJDOXJ5VlZCM3RIYlhaMWs0bzRvQ2ZiLUEifSwia2lkIjoiS0VZMSIsImN0eSI6IkpXVCIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJFQ0RILUVTK0EyNTZLVyJ9.QX8gtRxPMiqQ5mHMM5YpILFkkzcBqf2fK_ZhGIB78wWhJX_pcJIR7A.41UMqDjJetg0eKdLbFjnTg.oPJTnLkAK6iK3Mcl8bLyw_bySjI0whC141XTYVfUEk2tfw74FGxrNkV3wiF9P--FpGgAgY9o6M4cvftJLkCnpXKEsT7w-W58iaFGtsNvwxpfh7EH0KDR808Qi8lpZNWM9Av50SCN41vKfeFIA3IpmYPHoQDoE8yDkSkm-M3EwCm9K6--WOg0GtVBhgfjP3tFvHEZqWYQNXBIeXvJOQOaeDgU9AnfkfV4n7TybR9kZFIkgJYLKOn2O-PFc4R6_E5309BJN5oai074ACxSmRoHwHfZihUxc7NAO4fED37efK4DuzzeH0WxUjv4dGQvpO65jKQv7q0OrRdal5a0au2gYMV2oeoAFf5CaxenpWFdaRygSp68I2esjpDrNz9jcfBUCXu44FI4-BGQoMz-gEwhie96XXySuVVKuc_9S51drfNDCplfF7XnenK3WWtzleRLUk9ngEKHS_xl6X9fZ8s5j-QPWJRN5Qltab1ZXeDv-a2CP_YITHUkNES3RvO4TDqDRvct9mU1RxEhzaqCyvMeseejYZCJk6fg3wNQgDpUAr99ynwfpvgYF-OO_P8GIgiPozd8sOfl343VUWEiVrq5X3PSQ1JYFZsfXZRzvloKK1JMqzUD6Q_-FilQv5iB3xmZQDI9CqMKi-0XmYaOyJSiyYlLYLo1FXiOa4AFQmMMz0x1E8Zxshqzo9yhZ8NqWbk6.qM7gyFJmdiG_6fzi3BHrLw'
+    'X-Access-Token':'eyJlcGsiOnsia3R5IjoiRUMiLCJjcnYiOiJQLTI1NiIsIngiOiI1TnlKLVl2UGhEM19KWXdmVjBiVWhKWmtVemtGWXFBZkQybTVrYmdUVkxNIiwieSI6IkJISTRPMEdLUHBMU05VR2hyRnVaMFEzM1lJbGpQb1ptOFdIckRlbGwzX1EifSwia2lkIjoiS0VZMSIsImN0eSI6IkpXVCIsInR5cCI6IkpXVCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJhbGciOiJFQ0RILUVTK0EyNTZLVyJ9.6iUNG_m5uUXP1a4STUPf7WDJLnwsVPFA1OXf94H8Tyi1vSWjY7_6Hg.5CIXPLdjQamWg108-8IVtQ.4c3eqBpRetZR9YMJNd_BKh5uHtLPVnz64gcoYfpyi7Y2HAct_jKVlkpFzQrWE9Pwkag7xNesjGK5Y6XfsIK6TjAcyC9xKffyCCPR7R_iCN-Ep3lCMeSVoRsbRnaEcCHSmV3t7nrAgNt_e_CaKlchfwukS0ZB1_fZ-jW20Og4cVjInnQNPOAUnTfWtdtTTshqhlhDAv8tdFllyypsLJHO98WKElHPaJ0w8XoNI8pfR8CMCsfIgEIVuWDKGGNKfQf8hn8bMbVVT9NG2lDku3-4O2B6_uC2nVRS1yFyKkzaqKxkeJj8pFz4YPEE9IZKmQsjHmuRt3QYpxzTQrKcjZcRfyZk0mPUSZeBE0TQtFeQUuvo3dlM1P-6k6W60_Qr8wLAZv4QLGl0lAN_OTxouqmZdEX3I9l48ZjYtsCBA5h4GpWXKQ50N2GV3F-NyasE1T4Zt7xAhkOsSCuoGYn0lISm1mrxoke3Ph77aZzvJtUkCHQhGrauPXlC5trYRxv0TRiboWO1rEAPYz-nAtFnaLhBeJwEudiu0yJyxFTa6kCL13zjoI4Pe6xGGtoN2qKvUKPARoy4CV7e8LhLPABZMkj6EPNecXmkcafbvMbb7QKUQE9ybpaEWZplCywoTCTNYcrmKR-KNprLl817GMpMLZKOLkAiouutD2x8rxM9W51MVTyh9bQla3Afa7s3ZiAH5P0B.JXKp93cznMsDMjjs19cMig'
 }
 
 
@@ -17,14 +17,22 @@ def get_res(url):
 
 #获取页面的主要图片
 def get_main_pic(url):
-    main_pic=[]
-    imgs=get_res(url).find_all('img',{'class':'_image_2vfqsz _media-item_2vfqsz'})
-    for img in imgs:
-        pic_url=img.get('src')
-        ful_url='https:'+pic_url.split('?')[0]+'?$pdp-mz-opt$&fmt=webp'
-        main_pic.append(ful_url)
-        # print(ful_url)
-    return main_pic
+    try:
+        main_pic=[]
+        imgs=get_res(url).find_all('img',{'class':'_image_2vfqsz _media-item_2vfqsz'})
+        for img in imgs:
+            pic_url=img.get('src')
+            ful_url='https:'+pic_url.split('?')[0]+'?$pdp-mz-opt$&fmt=webp'
+            main_pic.append(ful_url)
+            # print(ful_url)
+        return main_pic
+    except:
+        print('找不到目标链接的图片返回空！')
+        return []
+
+# url='https://www.ae.com/us/en/p/men/polos/sweater-polos/ae-weekend-tipped-sweater-polo-shirt/0112_5464_455'#测试错误链接
+# main_pic=get_main_pic(url)
+# print(main_pic)
 
 #获取该页面下的所有颜色的服装链接
 # def getallcolor(url):
@@ -57,20 +65,28 @@ def getother(url):
     try:
         all=[]
         base_url='https://www.ae.com/us/en/p/men/polos/sweater-polos/ae-weekend-tipped-sweater-polo-shirt/'
-        res=requests.get(url,headers=header).json()
-        include=res['included']
-        for dic in include:
-            data=dic['relationships']['product']['data']['id']
-            ful_data=base_url+data
-            all.append(ful_data)
+        res=requests.get(url,headers=header).json()#这边需要修改一下tooken的判定
         # print(res)
-        return all
+        data_set=res['data']
+        if data_set !={}:
+            include=res['included']
+            for dic in include:
+                data=dic['relationships']['product']['data']['id']
+                ful_data=base_url+data
+                all.append(ful_data)
+            # print(res)
+            return all
+        else:
+            print('tooken过期')
+            header['X-Access-Token']=input('请输入新tooken：')
     except:
         return []
 
 
-# url='https://www.ae.com/ugp-api/outfitter/v1/product/1149_1839_141?include=similar-products'
+# url='https://www.ae.com/ugp-api/outfitter/v1/product/1165_3733_615?include=similar-products'#含无效链接
+# url='https://www.ae.com/ugp-api/outfitter/v1/product/0123_4882_219?include=similar-products'#没有搭配的链接
 # print(getother(url))
+
 
 def get_allpic(url):
     all_pic=[]
@@ -87,9 +103,11 @@ def get_allpic(url):
 def main(l):
     print(f'正在下载{l}中的图片！')
     allpic, other = get_allpic(l)
+    print(allpic)
     if other != []:
         id = l.split('/')[-1].replace('?', '')
         return {id:allpic}
+
     else:
         return {}
 
@@ -105,7 +123,7 @@ if __name__=='__main__':
     for i in result:
         all_dic.update(i)
 
-    with open('all_women_pic.json','w') as f:
+    with open('all_women_pic.txt','w') as f:
         json.dump(all_dic,f,indent=4)
 
 
