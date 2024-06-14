@@ -8,5 +8,6 @@ header={
 }
 # url='https://www.ae.com/ugp-api/outfitter/v1/product/1305_9826_001?include=similar-products'
 url='https://www.ae.com/ugp-api/outfitter/v1/product/0531_9511_076?include=similar-products'
+
 res=requests.get(url=url,headers=header).text
 print(res)
